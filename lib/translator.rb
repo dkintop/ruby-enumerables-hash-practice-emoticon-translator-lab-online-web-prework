@@ -1,5 +1,5 @@
 # require modules here
-#require 'pry' 
+require 'pry' 
 require 'yaml'
 def load_library(yaml_file)
    response = {"get_meaning" => {}, "get_emoticon" => {}}
@@ -16,6 +16,7 @@ end
 
 def get_japanese_emoticon(yaml_file, emoticon)
   load_library(yaml_file)
+  binding.pry
 end
 
 def get_english_meaning
