@@ -10,7 +10,7 @@ def load_library(yaml_file)
   
   end
   response
-  binding.pry
+  
 end
 
 
