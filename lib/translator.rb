@@ -41,7 +41,7 @@ def get_english_meaning(yaml_file, emoticon)
     end
   end
   if output == nil 
-    return 
+    return "Sorry, that emoticon was not found"
   else 
     return output
   end
