@@ -33,5 +33,10 @@ end
 
 def get_english_meaning(yaml_file, emoticon)
   library = load_library(yaml_file)
+  
+  output = nil
+  library["get_meaning"].each do |
+  
+  
 end
 
