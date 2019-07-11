@@ -18,13 +18,15 @@ def get_japanese_emoticon(yaml_file, emoticon)
   a = load_library(yaml_file)
   a["get_emoticon"].each do |english_emote, japanese_emote|
     
+    
+    
     if a["get_emoticon"].include?(english_emote)
       japanese_emote
     else
       "sorry"
   
   
-  binding.pry
+  
 end
   
 end
