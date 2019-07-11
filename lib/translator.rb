@@ -35,7 +35,15 @@ def get_english_meaning(yaml_file, emoticon)
   library = load_library(yaml_file)
   
   output = nil
-  library["get_meaning"].each do |
+  library["get_meaning"].each do |emote, meaning|
+    if emoticon == emote
+      output = meaning
+    end
+  end
+  if output == nil 
+    return "Sorry, but no"
+  else return output
+  end
   
   
 end
