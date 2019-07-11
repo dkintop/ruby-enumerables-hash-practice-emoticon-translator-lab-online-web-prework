@@ -20,7 +20,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
     
     output= nil
     binding.pry
-    if a["get_emoticon"].include?(english_emote)
+    if emoticon == english_emote
      
      
      output = japanese_emote
