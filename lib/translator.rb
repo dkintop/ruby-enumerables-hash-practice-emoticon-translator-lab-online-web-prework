@@ -41,7 +41,7 @@ def get_english_meaning(yaml_file, emoticon)
     end
   end
   if output == nil 
-    return "Sorry, but no"
+    return 
   else 
     return output
   end
