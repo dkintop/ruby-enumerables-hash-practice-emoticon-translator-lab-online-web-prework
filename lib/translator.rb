@@ -33,7 +33,7 @@ end
   
 
 end
-
+output
 end
 
 def get_english_meaning
