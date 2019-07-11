@@ -19,7 +19,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   a["get_emoticon"].each do |english_emote, japanese_emote|
     
     output= nil
-    
+    binding.pry
     if a["get_emoticon"].include?(english_emote)
      
      
