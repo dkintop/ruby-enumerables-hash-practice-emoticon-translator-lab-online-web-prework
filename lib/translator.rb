@@ -22,7 +22,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
     
     if a["get_emoticon"].include?(english_emote)
      
-     
+     binding.pry
       japanese_emote
     else
       "sorry"
