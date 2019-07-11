@@ -14,7 +14,7 @@ def load_library(yaml_file)
 end
 
 
-def get_japanese_emoticon(yaml_file, emoticon)
+
 def get_japanese_emoticon(yaml_file, emoticon)
   	  library = load_library(yaml_file)
   response = nil
