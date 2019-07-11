@@ -25,6 +25,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   
   binding.pry 
 end
+end
 
 def get_english_meaning
   # code goes here
