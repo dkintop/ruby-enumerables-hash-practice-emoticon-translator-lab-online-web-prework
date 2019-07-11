@@ -24,7 +24,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
       "sorry"
   
   
-  #binding.pry
+  binding.pry
 end
   
 end
