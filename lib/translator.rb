@@ -31,6 +31,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   
 end
   output
+  binding.pry
 end
 end
 
